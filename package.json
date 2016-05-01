@@ -1,0 +1,21 @@
+{
+  "name": "motley-auth",
+  "version": "1.0.0",
+  "description": "Auth (req.login and req.user) adapter for Motley",
+  "main": "_codemap",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carlos8f/motley-auth.git"
+  },
+  "homepage": "https://s8f.org/motley.html",
+  "keywords": [
+    "auth",
+    "handlebars",
+    "motley"
+  ],
+  "author": "Carlos Rodriguez <carlos@s8f.org> (http://s8f.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlos8f/motley-auth/issues"
+  }
+}
