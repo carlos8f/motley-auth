@@ -1,5 +1,5 @@
 module.exports = function container (get, set) {
-  return function (req, res, next) {
+  return function auth (req, res, next) {
     if (!req.session) return next(new Error('auth requires session'))
     req.login = function (user) {
       req.user = user

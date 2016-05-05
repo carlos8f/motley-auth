@@ -1,7 +1,6 @@
 module.exports = {
   _ns: 'motley',
-  _folder: 'middleware',
 
-  'auth': require('./auth'),
-  'handlers[-20]': '#middleware.auth'
+  'middleware.auth': require('./auth'),
+  'middleware[-20]': '#middleware.auth'
 }
